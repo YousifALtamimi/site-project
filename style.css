@@ -1,0 +1,77 @@
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+
+.social-link:hover,
+.social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+}
+
+footer {
+    background: #212529;
+}
+
+.nav-item {
+    float: right;
+    padding: 0 20px;
+}
+
+.nav-item li a {
+    padding: 5px 15px;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    color: #fff;
+    border: 2px solid transparent;
+    transition: all 0.5s;
+    opacity: 100%;
+}
+
+.navbar li:hover a,
+.navbar li.active a {
+    border: 2px solid #BA674E;
+    transition: all;
+    transform: scale(1.5)
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Open Sans", "Helvetica Neue", "Segoe UI", sans-serif;
+}
+
+#text3d {
+    color: white;
+    letter-spacing: .15em;
+    text-shadow: -1px -1px 1px #efede3, 0px 1px 0 #2e2e2e, 0px 2px 0 #2b2828, 0px 3px 0 #2a2a2a, 0px 4px 0 #282828, 0px 5px 0 #352d2d, 0px 6px 0 #242424, 0px 7px 0 #222, 0px 8px 0 #202020, 0px 9px 0 #1e1e1e, 0px 10px 0 #1c1c1c, 0px 11px 0 #1a1a1a, 2px 20px 5px rgba(0, 0, 0, 0.9), 5px 23px 5px rgba(0, 0, 0, 0.3), 8px 27px 8px rgba(104, 85, 85, 0.5);
+}
+
+.e {
+    color: #BA674E;
+    font-size: 40px;
+}
+
+#text3d:hover {
+    transform: scale(0.9)
+}
+
+.navbar {
+    background-color: #045775;
+}
+
+.c:hover {
+    transform: scale(1.05);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
